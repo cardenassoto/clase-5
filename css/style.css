@@ -1,0 +1,97 @@
+
+body {
+  
+    background-color: rgba(42, 165, 165, 0.233);
+    
+
+}
+
+* {
+    padding: 15;
+    margin: 15;
+}
+/* color de la pagina */
+:root {
+    --color1 :#9d9382 ;
+    --color2 :#ffc1b2 ;
+    --color3 :#ffdbc8 ;
+    --color4 :#fff6c7 ;
+    --color5 :#dcd7c2 ;
+}
+
+/*hader*/
+.Aquí {
+    background-color: #dcd7c2;
+    padding: 15;
+    margin: 15;
+}
+
+.Titulo {
+    text-align: center;
+    background-color: #fa76d9;
+    padding: 1em;
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+.Logo {
+    padding-left: 40%;
+    padding-right: 20%;
+    padding-bottom: 5%;
+    padding-top: 5%;
+    background-position: center;
+    border-bottom: 50%;
+}
+
+    /*modificar pantalla*/
+
+.principal {
+    color: #141414;
+    background-image: url("../imagen/imagen\ fondo.png"); 
+    background-repeat: no-repeat;
+    background-position: center;
+   background-size: cover;
+    width: 80%;
+   text-decoration-color: rgb(1, 12, 22);
+    background-color: #ffc1b2d4;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 50px;
+    margin-right: 50px;
+    border: 5px solid var(--color1);
+    text-align: center;
+}
+.principal .otro-titulo {
+    margin-bottom: 15px;
+    text-align: #111111;
+    font-size: 5rem;
+}
+.principal .subtitulo {
+    margin-bottom: 15px;
+    }  
+
+.Texto {
+    color: #111111;
+    font-size: 8rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.necesitas {
+    font-size: 5rem;
+    font-style: oblique;
+}
+.yoga {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    margin-left: 5px;
+    margin-right: 70px;
+    border: solid (#e6e9e9); 
+}
+.footer  {
+    background: #ffc1b2;    
+    font-size: 2rem;
+    }
+}
